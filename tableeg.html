@@ -14,40 +14,95 @@
         <!-- td: single cell -->
         <!-- tr: groups cells in a row -->
         <!-- th: table headers. -->
-        <tr>
-            <th>
-                Animal
-            </th>
-            <th>
-                Mass    
-            </th>
-            <th>
-                flighted?
-            </th>
-        </tr>
-        <tr>
-            <td>
-                Ostrich
-            </td>
-            <td>
-                104
-            </td>
-            <td>
-                No
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Pigeon-Brown
-            </td>
-            <td>
-                230
-            </td>
-            <td>
-                yes
-            </td>
-        </tr>
+        <!-- thead: just defining a row as headers -->
+        <!-- tbody: the content of the table -->
+        <!-- tfoot: table foot
+        rowspan: how many rows a td will span
+        colspan: how many columns a td will span -->
+        <thead>
+            <tr>
+                <th rowspan="2">
+                    Animal
+                </th>
+                <th colspan="2">
+                    Mass
+                </th>
+                <th rowspan="2">
+                    flighted?
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    KG
+                </th>
+                <th>
+                    LBS
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Ostrich
+                </td>
+                <td>
+                    104
+                </td>
+                <td>
+                    230
+                </td>
+                <td>
+                    No
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pigeon-Brown
+                </td>
+                <td>
+                    90
+                </td>
+                <td>
+                    156
+                </td>
+                <td>
+                    yes
+                </td>
+            </tr>
+        </tbody>
+
     </table>
+
+  
+
+    <table>
+        <thead>
+            <tr>
+                <th>Subscription</th>
+                <th>Price</th>
+                <th>Support</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Free</td>
+                <td>Free</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Personal</td>
+                <td>$9.99</td>
+                <td>Weekdays</td>
+            </tr>
+            <tr>
+                <td>Business</td>
+                <td>$49.99</td>
+                <td>24/7</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 
 </html>

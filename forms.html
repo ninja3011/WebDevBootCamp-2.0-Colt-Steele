@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <form action="/ninad">
+        <p>
+            <label for="username">Enter a username</label>
+            <input type="text" placeholder="username" id="username" name="username">
+        </p>
+        <p> <label for="password">Enter the password</label>
+            <input type="password" placeholder="password" id="password" name="password">
+        </p>
+        <p><label for="color">Enter a color</label>
+            <input type="color" placeholder="color" id="color" name="color">
+        </p>
+        <p><label for="number">Enter a number</label>
+            <input type="number" placeholder="number" id="number" name="number">
+        </p>
+        <p> <label for="time">Enter a time</label>
+            <input type="time" placeholder="time" id="time" name="time">
+        </p>
+        <button>Button SUBMIT</button>
+        <button type="button">does not submit</button>
+        <input type="submit" value="Input SUBMIT"> 
+    </form>
+    <h2>HIJACKING search</h2>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search Google</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search YouTube</button>
+    </form>
+
+</body>
+
+</html>
