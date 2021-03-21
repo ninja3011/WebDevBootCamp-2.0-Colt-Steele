@@ -40,7 +40,64 @@
         <input type="text" name="search_query">
         <button>Search YouTube</button>
     </form>
+    <h2>more inputs</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree" value="agree" />
+        <label for="agree">I agree to it all</label>
+        <p>
+            <label for="XS">XS</label>
+            <input id="XS" type="radio" name="xs" value="xs" />
+            <label for="S">S</label>
+            <input id="S" type="radio" name="s" value="s"/>
+            <label for="M">M</label>
+            <input id="M" type="radio" name="m" value="m" />
+            <label for="L">L</label>
+            <input id="L" type="radio" name="l" value="l"/>
+        </p>
+        <p>
+            <label>SELECT ONE</label>
+            <select name="number" id="number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3" selected>3</option>
+                <option value="4">4</option>
 
+            </select>
+        </p>
+        <p>
+            <label for="happy">Happy?</label>
+            <input type="range" id="hapy"  name="happy" value="7" min="0" max="100" step="7" />
+        </p>
+        <p>
+            <label>TextArea</label>
+            <br />
+            <textarea name="story" id="story" rows="5" cols="38" placeholder="Share your story"></textarea>
+        </p>
+        <button>submit</button>
+    </form>
+    <form action="/login" >
+        <p>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="username" />
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="password" />
+        </p>
+        <button>Register</button>
+    </form>
+    <form action="/validation" >
+        <h2>Validations</h2>
+        <label for="username">Name</label>
+        <input type="text" name="username" id="name" minlength="5" maxlength="15" required/>
+        <p>
+            <label for="url">url</label>
+            <input type="url" name="url" id="url"/>
+            <label for="email"></label>
+            <input type="email" name="emailID" id="email" required  />
+        </p>
+        <button>submit</button>
+    </form>
 </body>
 
 </html>

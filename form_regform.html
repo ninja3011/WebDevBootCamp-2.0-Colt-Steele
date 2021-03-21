@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="/raceregistration">
+        <div id="name">
+            <h1>Race Registration!</h1>
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname" />
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" />
+        </div>
+        <br />
+        <div id="select_race">
+            <label for="race">Select a race</label>
+            <select name="race" id="race">
+                <option value="Fun Run 5k">Fun Run 5k</option>
+                <option value="Half Marathon">Half Marathon</option>
+                <option value="Full Marathon">Full Marathon</option>
+            </select>
+        </div>
+        <br />
+        <div id="emailpass">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="username" />
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="password" />
+        </div>
+        <br />
+        <div id="agegrp">
+            <label>Select Age Group</label>
+            <p>
+
+            </p>
+            <div>
+                <label for="U14">U14</label>
+                <input type="radio" name="agegroup" value="U14" />
+            </div>
+            <div>
+                <label for="U16">U16</label>
+                <input type="radio" name="agegroup" value="U16" />
+            </div>
+            <div>
+                <label for="U18">U18</label>
+                <input type="radio" name="agegroup" value="U18" />
+            </div>
+            <div>
+                <label for="18+">18+</label>
+                <input type="radio" name="agegroup" value="18+" />
+            </div>
+        </div><br />
+        <button>Register!</button>
+    </form>
+
+</body>
+</html>
+
