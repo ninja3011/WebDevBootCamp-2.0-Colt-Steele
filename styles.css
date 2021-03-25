@@ -1,0 +1,28 @@
+h2  {
+    color:blueviolet;
+    background-color: ghostwhite;
+}
+button {
+    color:coral;
+    background-color: cyan;
+}
+p {
+    color: rgb(89,0,151) ;
+    background: pink;
+}
+/* exercise 1
+h1 {
+    color: green;
+}
+
+h2{
+    color: magenta;
+}
+p {
+    color: white;
+    background: black;
+}
+button {
+    color :red;
+    background-color: pink;
+} */
