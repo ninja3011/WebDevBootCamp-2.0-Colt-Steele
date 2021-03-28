@@ -8,7 +8,7 @@ button {
 }
 p {
     color: rgb(89,0,151) ;
-    background: pink;
+    background: #079900;
 }
 /* exercise 1
 h1 {
@@ -26,3 +26,16 @@ button {
     color :red;
     background-color: pink;
 } */
+
+/* excercise 2
+ */
+
+ /* h1 {
+    text-transform: uppercase;
+    font-family: monospace;
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-decoration: wavy plum underline;
+ } */
